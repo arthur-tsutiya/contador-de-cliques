@@ -1,0 +1,14 @@
+.btn {
+    border: 0;
+    padding: .5em 1em;
+    border-radius: .5em;
+    
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.btn:active {
+    opacity: .8;
+}
