@@ -10,7 +10,7 @@
     color: inherit;
 }
 
-.Footer-link:hover {
+.Footer-link:hover, .Footer-link:focus {
     text-decoration: underline;
 }
 

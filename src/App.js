@@ -4,7 +4,6 @@ import Footer from './Footer.js';
 
 function App() {
   return (
-    <>
       <div className="App">
         <div className="contador-wrapper">
           <h1>Contador simples</h1>
@@ -13,7 +12,6 @@ function App() {
         </div>
         <Footer />
       </div>
-    </>
   );
 }
 

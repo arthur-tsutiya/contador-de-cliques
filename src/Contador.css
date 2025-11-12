@@ -1,14 +1,17 @@
 .btn {
     border: 0;
-    padding: .5em 1em;
+    padding: 1em 1.5em;
     border-radius: .5em;
-    
+    transition: background-color 150ms, translate 150ms;
+    cursor: pointer;
+    background-color: #1594448a;
 }
 
-.btn:hover {
-    opacity: .9;
+.btn:hover, .btn:focus {
+    background-color: #15944477;
 }
 
 .btn:active {
-    opacity: .8;
+    background-color: #1594446a;
+    transform: translate(1px, 1px);
 }
