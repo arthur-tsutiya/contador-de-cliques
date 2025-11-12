@@ -4,10 +4,14 @@ import './Contador.css';
 export default function Contador() {
     const [count, setCount] = useState(0);
 
+    function incrementarContador() {
+        setCount(c => c + 1);
+    }
+
     return (
         <>
-            <h1>{count}</h1>
-            <button className="btn" onClick={() => setCount(c => c + 1)}>Incrementar</button>
+            <h2>{count}</h2>
+            <button className="btn" onClick={incrementarContador}>Incrementar</button>
         </>
     );
 }
