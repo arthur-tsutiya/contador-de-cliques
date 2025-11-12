@@ -1,3 +1,14 @@
 .App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr min-content;
+}
+
+.contador-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 1em;
   text-align: center;
 }
